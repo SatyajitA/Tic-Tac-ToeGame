@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #17153B;
+    text-align: center;
+    background-position: center center;
+}
+h1{
+    color: #C8ACD6;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.btn{
+    
+    height: 60vmin;   
+    width: 60vmin; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+}
+
+.box{
+    border-radius: 20px;
+    height: 17vmin;
+    width: 17vmin;
+    cursor: pointer;
+    background-color: #F3FEB8;
+    font-size: 10vmin;
+    color:deepskyblue;
+}
+
+.reset{
+    font-size: 29px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #C8ACD6;
+    cursor: pointer;
+    height: 60px;
+    width: 180px;
+
+}
+
+.newgame{
+    font-size: 29px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #C8ACD6;
+    cursor: pointer;
+    margin-bottom: 35vmin;
+    height: 60px;
+    width: 180px;
+
+}
+
+.msg-container {
+    color: #F3FEB8;
+    font-size: 70px;
+    height: 20vmin;
+    margin-top: 40vmin;
+    
+}
+
+.hide{
+    display:none;
+}
+
+.heading{
+    margin-bottom: 0px;
+}
+
+.msg {
+    margin-bottom: 0px;
+}
+.h1{
+    margin: 10vmin;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 6vw;
+    }
+    .reset, .newgame {
+        font-size: 3vw;
+        height: 7vh;
+        width: 30vw;
+    }
+    .msg-container {
+        font-size: 6vw;
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        font-size: 7vw;
+    }
+    .reset, .newgame {
+        font-size: 4vw;
+        height: 6vh;
+        width: 35vw;
+    }
+    .msg-container {
+        font-size: 4vw;
+    }
+    .box {
+        height: 15vw; /* Adjust box size for smaller screens */
+        width: 15vw;
+        font-size: 5vw; /* Adjust font size for smaller screens */
+    }
+}
